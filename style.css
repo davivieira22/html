@@ -7,13 +7,14 @@
 
 .logo-conversor-de-moedas {
     display: block;
-    margin: 20px auto;
-    width: 300px;
-    height: 300px;
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
 }
 
 body {
-    background-color: #8a51fc;
+    background: rgb(32, 36, 0);
+    background: linear-gradient(90deg, rgba(32, 36, 0, 1) 0%, rgba(231, 247, 27, 0.8071603641456583) 18%, rgba(232, 233, 73, 0.5270483193277311) 44%, rgba(128, 235, 81, 1) 61%, rgba(104, 223, 17, 1) 78%, rgba(8, 94, 17, 1) 96%);
 
 }
 
@@ -21,7 +22,7 @@ main {
     display: block;
     margin: 0 auto;
     width: 375px;
-    background-color: rgba(244, 244, 244, 1);
+    background-color: rgb(167, 230, 103);
     border-radius: 20px;
     padding: 44px 24px 23px;
 }
@@ -61,15 +62,15 @@ input {
 }
 
 button {
-    color: rgba(255, 255, 255, 1);
+    color: black;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 18px;
     margin-top: 20px;
     height: 48px;
     width: 100%;
     border-radius: 5px;
-    background-color: rgba(119, 47, 211, 1);
+    background-color: gold;
     border: none;
     cursor: pointer;
 }
@@ -119,13 +120,15 @@ section {
 
 }
 
-.logo-moeda,.logo-moeda-convertida {
+.logo-moeda,
+.logo-moeda-convertida {
     margin-left: 38px;
     width: 44px;
 
 }
 
-.valor,.valor-real {
+.valor,
+.valor-real {
     width: 121px;
     height: 18px;
     font-weight: 700;
