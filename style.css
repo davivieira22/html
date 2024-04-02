@@ -5,23 +5,31 @@
     box-sizing: border-box;
 }
 
-.logo-conversor-de-moedas {
-    display: block;
-    margin: 10px auto;
-    width: 200px;
-    height: 200px;
-}
+
+
 
 body {
     background: rgb(32, 36, 0);
     background: linear-gradient(90deg, rgba(32, 36, 0, 1) 0%, rgba(231, 247, 27, 0.8071603641456583) 18%, rgba(232, 233, 73, 0.5270483193277311) 44%, rgba(128, 235, 81, 1) 61%, rgba(104, 223, 17, 1) 78%, rgba(8, 94, 17, 1) 96%);
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-main {
-    display: block;
-    margin: 0 auto;
-    width: 375px;
+h1 {margin-bottom:20px;
+    display: flex;
+    justify-content:right;
+    flex-direction: column;
+    align-items:center;
+    color: red;font-size:50px;
+}
+
+main {gap:10px;
+    margin:80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 775px;
     background-color: rgb(167, 230, 103);
     border-radius: 20px;
     padding: 44px 24px 23px;
@@ -96,14 +104,15 @@ p {
 }
 
 section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 1px solid rgba(119, 47, 211, 1);
     border-radius: 20px;
     margin-top: 50px;
     padding: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    gap: 5px;
 
 
 }
@@ -151,3 +160,7 @@ div {
     margin-top: 20px;
     gap: 4px;
 }
+
+    
+
+    
